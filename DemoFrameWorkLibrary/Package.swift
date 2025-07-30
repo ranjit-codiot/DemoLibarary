@@ -19,7 +19,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
 //        .target(
 //            name: "DemoFrameWorkLibrary"),
-        .binaryTarget(name: "DemoFrameWork", path: "./Users/apple/Projects/SDK/DemoFrameWork/DemoFrameWork.xcframework")
+        .binaryTarget(name: "DemoFrameWork", path: "/Users/apple/Projects/SDK/DemoFrameWork/DemoFrameWork.xcframework")
 
     ]
 )
